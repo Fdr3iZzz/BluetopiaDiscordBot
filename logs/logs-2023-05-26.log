@@ -1,0 +1,107 @@
+00:10:21.202 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+00:10:21.612 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+00:10:22.060 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+01:03:38.349 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+01:03:38.770 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+01:03:39.095 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+01:24:51.861 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+01:24:52.273 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+01:24:52.577 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+01:24:52.584 JDA MainWS-ReadThread      n.d.j.a.hooks.InterfacedEventManager #handle                   L100   JDA                  ERROR  One of the EventListeners had an uncaught exception
+java.lang.IllegalArgumentException: Name must be lowercase only! Provided: "nicknameMessage"
+	at net.dv8tion.jda.internal.utils.Checks.check(Checks.java:69)
+	at net.dv8tion.jda.internal.utils.Checks.isLowercase(Checks.java:187)
+	at net.dv8tion.jda.internal.interactions.CommandDataImpl.checkName(CommandDataImpl.java:83)
+	at net.dv8tion.jda.internal.interactions.CommandDataImpl.setName(CommandDataImpl.java:290)
+	at net.dv8tion.jda.internal.interactions.CommandDataImpl.<init>(CommandDataImpl.java:59)
+	at net.dv8tion.jda.api.interactions.commands.build.Commands.slash(Commands.java:74)
+	at com.Franz3.listeners.OnReady.onReady(OnReady.java:28)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:427)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:176)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.ready(WebSocketClient.java:208)
+	at net.dv8tion.jda.internal.handle.GuildSetupController.checkReady(GuildSetupController.java:115)
+	at net.dv8tion.jda.internal.handle.GuildSetupController.ready(GuildSetupController.java:102)
+	at net.dv8tion.jda.internal.handle.GuildSetupNode.completeSetup(GuildSetupNode.java:377)
+	at net.dv8tion.jda.internal.handle.GuildSetupNode.handleMemberChunk(GuildSetupNode.java:260)
+	at net.dv8tion.jda.internal.handle.GuildSetupNode.ensureMembers(GuildSetupNode.java:394)
+	at net.dv8tion.jda.internal.handle.GuildSetupNode.handleCreate(GuildSetupNode.java:220)
+	at net.dv8tion.jda.internal.handle.GuildSetupController.onCreate(GuildSetupController.java:170)
+	at net.dv8tion.jda.internal.handle.GuildCreateHandler.handleInternally(GuildCreateHandler.java:44)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:985)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:871)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:849)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:1024)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+01:25:19.034 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+01:25:19.447 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+01:25:19.746 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+01:26:42.983 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+01:26:43.391 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+01:26:43.704 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+01:51:21.837 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+01:51:22.241 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+01:51:22.574 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+01:55:18.387 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+01:55:18.791 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+01:55:19.156 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+02:10:32.320 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+02:10:32.747 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+02:10:33.192 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+02:12:25.241 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+02:12:25.668 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+02:12:26.168 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+02:14:02.697 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+02:14:03.102 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+02:14:03.458 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+02:22:24.581 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+02:22:24.999 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+02:22:25.327 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+02:28:35.171 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+02:28:35.590 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+02:28:35.915 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+02:30:26.661 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+02:30:27.081 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+02:30:27.554 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+02:33:44.848 ForkJoinPool.commonPool-wo n.d.j.i.requests.RestActionImpl      #lambda$static$1          L53    RestAction           ERROR  RestAction queue returned failure: [ErrorResponseException] 50035: Invalid Form Body
+nick
+	- BASE_TYPE_MAX_LENGTH: Must be 32 or fewer in length.
+net.dv8tion.jda.api.exceptions.ContextException: null
+	at net.dv8tion.jda.api.exceptions.ContextException.here(ContextException.java:54)
+	at net.dv8tion.jda.api.requests.Request.<init>(Request.java:72)
+	at net.dv8tion.jda.internal.requests.RestActionImpl.queue(RestActionImpl.java:197)
+	at net.dv8tion.jda.internal.requests.DeferredRestAction.queue(DeferredRestAction.java:135)
+	at net.dv8tion.jda.api.requests.RestAction.queue(RestAction.java:572)
+	at net.dv8tion.jda.api.requests.RestAction.queue(RestAction.java:538)
+	at com.Franz3.Nickname.rename(Nickname.java:33)
+	at com.Franz3.listeners.ModelListener.onModalInteraction(ModelListener.java:17)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:427)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:176)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:108)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:985)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:871)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:849)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:1024)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+02:46:37.448 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+02:46:37.858 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+02:46:38.164 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!

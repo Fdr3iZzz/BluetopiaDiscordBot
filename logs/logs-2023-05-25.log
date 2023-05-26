@@ -1,0 +1,9 @@
+23:31:00.173 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+23:31:00.507 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+23:31:00.831 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+23:33:03.032 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+23:33:03.378 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+23:33:03.662 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
+23:33:24.557 main                       net.dv8tion.jda.internal.JDAImpl     #login                    L332   JDA                  INFO   Login Successful!
+23:33:24.892 JDA MainWS-WriteThread     n.d.j.i.requests.WebSocketClient     #onConnected              L411   WebSocketClient      INFO   Connected to WebSocket
+23:33:25.315 JDA MainWS-ReadThread      n.d.j.i.requests.WebSocketClient     #ready                    L207   JDA                  INFO   Finished Loading!
